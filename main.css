@@ -9,4 +9,49 @@
     text-align: center;
 }
 
+.tooltip {
+    position: absolute;
+    font-size: 12px;
+    min-width: 200px;
+    padding: 10px;
+    width:  auto;
+    height: auto;
+    pointer-events: none;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.buttons {
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 5%;
+
+} 
+
+#graph3 {
+    padding-top: 20px;
+    margin: 0;
+    position: relative;
+    top: 50%;
+}
+
+#header1 {
+    /* position: relative; */
+    margin-bottom: 20px;
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#writs {
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    margin: 10px;
+    padding-top: 20px;
+    text-align: left;
+}
+
 /* Include any custom CSS styling here! */
